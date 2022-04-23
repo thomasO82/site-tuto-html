@@ -146,6 +146,18 @@ textarea:focus {
     outline: 3px solid #61adf8;
 }
 
+button {
+    background-color: #007bff;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+
+.submit-container {
+    width: 100%;
+    text-align: center;
+}
+
 
 /*********************************section contact*********************************/
 
