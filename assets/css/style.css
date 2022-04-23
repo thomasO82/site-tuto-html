@@ -1,0 +1,157 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*********************************header title/logo*********************************/
+
+header {
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, .125);
+    background-color: wheat;
+}
+
+h1 {
+    text-align: center;
+    display: inline-block;
+}
+
+.logo {
+    margin-top: 15px;
+    width: 50px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+
+/*********************************header nav*********************************/
+
+nav {
+    display: block;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    padding: 40px;
+}
+
+nav img {
+    height: 60px;
+}
+
+
+/*********************************section general rules*********************************/
+
+section {
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+section article p {
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+section article,
+form {
+    margin-top: 35px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 5px
+}
+
+section h2 {
+    text-align: center;
+}
+
+section h2 img {
+    width: 100px;
+}
+
+section article img {
+    height: 100px;
+}
+
+
+/*********************************section html et javascript*********************************/
+
+.align-article article {
+    margin: 20px;
+    height: 500px;
+    display: inline-block;
+    overflow: hidden;
+    width: 40%;
+    text-align: center;
+}
+
+
+/*********************************section css*********************************/
+
+#css article {
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+/*********************************section contact*********************************/
+
+form {
+    text-align: start;
+    margin: auto;
+    width: 60%;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    height: 25px;
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+    margin: 5px 0 15px 0;
+    width: 100%;
+}
+
+textarea {
+    height: 100px;
+}
+
+input:focus,
+textarea:focus {
+    border: 1px solid #ced4da;
+    outline: 3px solid #61adf8;
+}
+
+
+/*********************************section contact*********************************/
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, .125);
+    font-style: italic;
+}
